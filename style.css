@@ -6,3 +6,16 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+footer {
+    background-color: #1a252f;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+}
