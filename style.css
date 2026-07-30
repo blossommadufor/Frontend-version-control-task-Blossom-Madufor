@@ -19,3 +19,84 @@ footer a {
     color: #3498db;
     text-decoration: none;
 }
+
+.presentation-container {
+    max-width: 900px;
+    margin: 2.5rem auto;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.presentation-container>h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.presentation-card {
+    background-color: #1e293b;
+    /* Darker Blue Card Background */
+    border: 1px solid #334155;
+    /* Slate Blue Outline */
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.presentation-card:hover {
+    transform: translateY(-2px);
+    border-color: #38bdf8;
+    /* Vibrant Blue Glow on Hover */
+}
+
+.presentation-card h3 {
+    color: #38bdf8;
+    /* Blue Titles */
+    font-size: 1.35rem;
+    margin-bottom: 0.75rem;
+}
+
+.presentation-card p {
+    color: #cbd5e1;
+    margin-bottom: 1rem;
+}
+
+.presentation-card ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    color: #94a3b8;
+}
+
+.presentation-card li {
+    margin-bottom: 0.5rem;
+}
+
+.branch-detail {
+    background-color: #0f172a;
+    border-left: 3px solid #38bdf8;
+    /* Bright Blue Left Accent Line */
+    padding: 1rem;
+    border-radius: 0 8px 8px 0;
+    margin: 1.25rem 0;
+}
+
+.branch-detail h4 {
+    font-size: 1.05rem;
+    color: #f8fafc;
+    margin-bottom: 0.5rem;
+}
+
+code {
+    background-color: #0f172a;
+    color: #38bdf8;
+    /* Blue Code Tags */
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.9rem;
+    border: 1px solid rgba(56, 189, 248, 0.2);
+}
